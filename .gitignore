@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+.next/
+.vercel
+.env*.local
+landing/.next/
+landing/node_modules/
+landing/out/
+*.log
+.barkley/
