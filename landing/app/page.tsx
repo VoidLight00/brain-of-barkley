@@ -158,10 +158,189 @@ cd brain-of-barkley
       <section>
         <h2>음성 회귀 검증</h2>
         <p>
-          <code>barkley --eval</code>은 8개 정규 Q&amp;A를 실행해 응답이
-          Barkley 음성 기준 10개 마커 중 8개 이상을 만족하는지 채점합니다.
-          브레인 파일이 드리프트하면 점수가 떨어져 즉시 감지됩니다.
+          <code>scripts/eval.py</code>는 8개 정규 Q&amp;A를 Anthropic API에
+          던지고 응답이 Barkley 음성 기준 10개 마커 중 8개 이상을 만족하는지
+          자동 채점합니다. 브레인 파일이 드리프트하면 점수가 떨어져 즉시
+          감지됩니다.
         </p>
+        <pre>
+          <code>{`pip install anthropic
+export ANTHROPIC_API_KEY=sk-ant-...
+python3 scripts/eval.py`}</code>
+        </pre>
+        <p>
+          채점 기준: 실행기능 프레임 사용 · 의지력 프레임 거부 · 약물 옹호 ·
+          gift framing 거부 · 수치심 다루기 · 외재화 권장 · 구체적 다음 단계 ·
+          Barkley signature phrase · 직설 톤 · 임상가 referral. 8+/10 합격.
+        </p>
+      </section>
+
+      <section>
+        <h2>출처 grounding</h2>
+        <p>
+          페르소나는 Barkley 박사의 공개 *30 Essential Ideas* YouTube
+          시리즈에서 직접 인용한 실제 발화로 grounding됐습니다. 브레인 파일에
+          인용구가 등장할 때 <code>(30EI 5A)</code> 같은 episode 코드로
+          출처를 명시합니다. 합성문이 아닌 실제 Barkley 텍스트로 voice를
+          봉인하기 위함입니다.
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://youtu.be/BzhbAK1pdPM"
+              target="_blank"
+              rel="noopener"
+            >
+              30EI 1A
+            </a>{' '}
+            — Intro: Chronic Developmental Disability
+          </li>
+          <li>
+            <a
+              href="https://youtu.be/wg6cfsnmqyg"
+              target="_blank"
+              rel="noopener"
+            >
+              30EI 1B
+            </a>{' '}
+            — Inhibition, Impulsivity, and Emotion
+          </li>
+          <li>
+            <a
+              href="https://youtu.be/Illf_Hsy570"
+              target="_blank"
+              rel="noopener"
+            >
+              30EI 3A
+            </a>{' '}
+            — The Five Executive Functions (the actual model)
+          </li>
+          <li>
+            <a
+              href="https://youtu.be/wmV8HQUuPEk"
+              target="_blank"
+              rel="noopener"
+            >
+              30EI 5A
+            </a>{' '}
+            — ADHD is Time Blindness
+          </li>
+          <li>
+            <a
+              href="https://youtu.be/yGOlNzaW7KA"
+              target="_blank"
+              rel="noopener"
+            >
+              30EI 5B
+            </a>{' '}
+            — ADHD is a Disorder of Self-Regulation
+          </li>
+          <li>
+            <a
+              href="https://youtu.be/Jj4UfRD-PIw"
+              target="_blank"
+              rel="noopener"
+            >
+              30EI 9B
+            </a>{' '}
+            — ADHD Medication Myths
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>샘플 응답</h2>
+        <p>
+          페르소나가 어떻게 답변하는지 미리 보세요. 실제{' '}
+          <code>barkley</code> 호출 시 사용자 맥락에 맞춰 길이·뉘앙스가
+          달라집니다.
+        </p>
+
+        <div className="card" style={{ marginBottom: 16 }}>
+          <h3 style={{ color: 'var(--accent)' }}>
+            Q. "I can't focus on anything important. Am I just lazy?"
+          </h3>
+          <p style={{ marginTop: 12 }}>
+            <strong>Reframe</strong> — You haven't correctly named the problem.
+            What you're calling "can't focus on important things" is the ADHD
+            signature: the brain activates for interest, novelty, urgency, and
+            challenge — not for abstract importance. That's not laziness.
+            Laziness requires intact self-motivation to be chosen against. You
+            don't have intact self-motivation to choose against.
+          </p>
+          <p>
+            <strong>Root cause</strong> — Self-motivation deficit (the "mind's
+            heart"). Importance is an abstract future-weighted value. The ADHD
+            brain underweights the future.
+          </p>
+          <p>
+            <strong>Intervention</strong> — Make the important thing immediate,
+            concrete, externally accountable. Sub-task it down to 15 minutes.
+            Put a person on the other end. Manufacture interest, urgency, or
+            challenge.
+          </p>
+          <p>
+            <strong>Bottom line</strong> — You are not lazy. You have an
+            interest-based nervous system trying to run on an importance-based
+            schedule. Change the schedule.
+          </p>
+        </div>
+
+        <div className="card" style={{ marginBottom: 16 }}>
+          <h3 style={{ color: 'var(--accent)' }}>
+            Q. "ADHD is just a productivity excuse, right?"
+          </h3>
+          <p style={{ marginTop: 12 }}>
+            No. And I won't be polite about this.
+          </p>
+          <p>
+            ADHD has been studied for over a century. Heritability is roughly
+            74–80% — on par with height. Stimulant effect sizes match or exceed
+            most psychiatric medications in existence. Untreated ADHD shows
+            measurable harm: 2–4× higher motor vehicle accident rate, higher
+            divorce rate, lower income, higher substance use, shorter lifespan
+            on the high-severity end.
+          </p>
+          <p>
+            "Productivity excuse" is a rhetorical frame that rests on the
+            assumption that self-regulation is a moral property rather than a
+            neurological function. That assumption is false. Self-regulation is
+            executed by specific brain systems that can be damaged, delayed, or
+            weakened — same as memory, coordination, or language.
+          </p>
+          <p>
+            <strong>Bottom line</strong> — ADHD is real, documented, treatable,
+            and impairing. The "excuse" framing is misinformation. Don't let it
+            delay evaluation or treatment.
+          </p>
+        </div>
+
+        <div className="card">
+          <h3 style={{ color: 'var(--accent)' }}>
+            Q. "I'm 40 and just got diagnosed. Is it too late?"
+          </h3>
+          <p style={{ marginTop: 12 }}>
+            No. You're right on time — "on time" being whenever you got there.
+          </p>
+          <p>
+            Forty years of running on unmedicated, unscaffolded executive
+            function in a world optimized for intact executive function has
+            accumulated wear. You're feeling the wear. You may also be grieving
+            the years when you didn't know. That grief is appropriate.
+          </p>
+          <p>
+            Late-life diagnosis changes three things: you stop attributing
+            impairment to character flaw; you become eligible for evidence-based
+            treatment; and you can name what you've been dealing with so
+            partners and employers can respond accurately instead of to a wrong
+            model.
+          </p>
+          <p>
+            <strong>Bottom line</strong> — You are not too late. You're 40 and
+            now you know what you're working with. That's not a ceiling. That's
+            a starting line.
+          </p>
+        </div>
       </section>
 
       <div className="disclaimer">

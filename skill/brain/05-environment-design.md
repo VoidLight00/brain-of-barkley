@@ -10,6 +10,18 @@ There is no heroic internal solution. You cannot "try harder" at working memory.
 
 This is environmental design for ADHD. It is not tips-and-tricks productivity content. It is the engineering discipline of replacing damaged executive function with external structure.
 
+The clinical name for this is **point-of-performance intervention**:
+
+> "The point of performance is where you should be using what you know and you're not. The only way to treat a performance disorder is to change that point. This means that all treatment, if it is going to work at all, must be at the point of performance, the place in your life where you're not using what you already know. And if the intervention isn't done there, it's useless."
+> — Russell Barkley, *30 Essential Ideas* 5B
+
+And the framing for your scaffolding — never apologize for it:
+
+> "A prosthesis is an artificial means of reducing the disabling consequences of your disorder. It is not to train you up into anything. No amount of using a ramp is going to take the ramp away. And no amount of BMOD is going to take the BMOD away. These individuals will always need more frequent consequences around them than will other people in order to perform at the same level. It's just a general corollary of ADHD."
+> — Barkley, *30EI 5B*
+
+The wheelchair user does not "internalize the ramp." Neither will you internalize your scaffolding. That is not failure. That is fit.
+
 ## The Five Design Principles
 
 ### 1. Visibility Trumps Memory

@@ -1,0 +1,93 @@
+Brain of Barkley — Dual License
+
+================================================================================
+PART A — CODE & ARCHITECTURE (MIT License)
+================================================================================
+
+Copyright (c) 2026 VoidLight (icthyeon00@gmail.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Code"), to deal
+in the Code without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Code, and to permit persons to whom the Code is furnished to
+do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Code.
+
+THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS
+IN THE CODE.
+
+"Code" includes: install scripts, eval harness scripts, landing page source
+code, build configuration, and the SKILL.md activation logic. It does NOT
+include the brain/ directory contents (see Part B) or any direct quotation
+of Russell Barkley.
+
+The skill harness architecture is forked from
+https://github.com/genius8267/naval (please credit the upstream when you fork).
+
+================================================================================
+PART B — BRAIN CONTENT (Personal Use, Attribution Required)
+================================================================================
+
+The brain/ directory contains an AI-synthesized clinical persona of Dr.
+Russell A. Barkley. The synthesis is informed by Dr. Barkley's publicly
+available work — books (*Taking Charge of ADHD*, *Taking Charge of Adult
+ADHD*, *ADHD in Adults*), public lectures, the *30 Essential Ideas*
+YouTube series, and other public-domain or fair-use materials.
+
+Direct quotations from Dr. Barkley's lectures appearing in this work are
+used under the principle of fair use for educational, transformative, and
+critical purposes (US Copyright Act §107; equivalent provisions in other
+jurisdictions). Each quotation is attributed to its source video.
+
+The synthesized persona content (non-quotation portions) is licensed for:
+  - Personal study and clinical decision-support
+  - Educational and research use
+  - Forks that preserve attribution and the unofficial-status disclaimer
+
+The synthesized persona content is NOT licensed for:
+  - Commercial resale of the persona itself
+  - Use that misrepresents the work as endorsed by Dr. Barkley
+  - Use that strips the unofficial-status disclaimer
+  - Medical practice where it would substitute for a licensed clinician
+
+================================================================================
+PART C — UNOFFICIAL STATUS (Mandatory Disclaimer)
+================================================================================
+
+This work is UNOFFICIAL. It is NOT affiliated with, endorsed by, or
+reviewed by Dr. Russell A. Barkley or any of his institutions, publishers,
+or co-authors. It is an AI-synthesized derivative work for educational and
+decision-support purposes.
+
+Any redistribution must preserve this disclaimer prominently in:
+  - The repository README
+  - The skill SKILL.md
+  - Any landing page or public-facing surface
+
+================================================================================
+PART D — MEDICAL DISCLAIMER (Mandatory)
+================================================================================
+
+This work does NOT provide:
+  - Medical diagnosis
+  - Medical treatment
+  - Prescription advice
+  - Crisis intervention
+  - Substitute for licensed clinical care
+
+For any clinical decision — evaluation, medication, comorbidity, crisis —
+consult a licensed clinician experienced in ADHD (psychiatrist,
+neuropsychologist, or psychologist with relevant specialty).
+
+If you are in crisis, contact your local emergency services. In the United
+States: 988 Suicide & Crisis Lifeline. In South Korea: 1393 자살예방상담.
+
+Any redistribution must preserve this disclaimer.

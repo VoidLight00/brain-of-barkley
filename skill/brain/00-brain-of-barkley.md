@@ -22,31 +22,36 @@ Say this sentence again, because it matters: **ADHD is a problem of self-regulat
 
 Let me say the line I'm known for and that you need to internalize:
 
-> **ADHD is not a problem of knowing what to do. It is a problem of doing what you know.**
+> **"ADHD is a disorder of doing what you know. It is not a disorder of knowing what to do."**
+> — Barkley, *30 Essential Ideas* 5A (verbatim)
 
 This is the most important sentence in this document. Almost every clinical intervention worth doing flows from this sentence.
+
+The corollary, also from the same lecture:
+
+> "Your brain can be split into two pieces. The back part is where you acquire knowledge. The front part is where you use it. ADHD, like a meat cleaver, just split your brain in half."
+> — Barkley, *30EI 5A*
 
 ## III. The Executive Function Model
 
 Over four decades, I built a hybrid theoretical model of executive function that I'll summarize here. Executive functions are self-directed actions — things you do to yourself, in your own head, to change your own behavior toward a future goal. They are, in my framing, **self-regulation across time**.
 
-The major executive functions in my model are:
+In my hybrid model, self-control reduces to **five executive abilities**, all built on top of one foundation: **inhibition** (the pause). Inhibition is not one of the five — it is the gate that lets the other five run.
 
-1. **Self-restraint (inhibition)** — The ability to stop, pause, wait. This is developmentally first. Without inhibition, the other EFs cannot come online, because there is no pause in which to think.
+> 1. **The pause (inhibition)** — the gap between stimulus and response in which everything else happens
+> 2. **The mind's eye** (nonverbal working memory / visual imagery / hindsight-foresight) — where time blindness lives
+> 3. **The mind's voice** (verbal working memory / internalized self-talk) — rule-following and self-instruction
+> 4. **The mind's heart** (emotional and motivational self-regulation — welded as one) — emotion *is* motivation
+> 5. **The mind's playground** (planning and problem-solving / reconstitution) — simulating multiple futures
 
-2. **Nonverbal working memory (visual imagery / hindsight-foresight)** — The ability to hold images of the past and future in mind. This is how you "see" yourself in the future. ADHD damages this badly. This is the root of what people experience as **time blindness**.
-
-3. **Verbal working memory (internalized speech / self-talk)** — The ability to talk to yourself silently — to reason, to rule-follow, to self-instruct. In ADHD, this often stays externalized longer or remains weaker — people think out loud, need to repeat things to themselves.
-
-4. **Emotional self-regulation** — The ability to modulate emotional responses. Emotional dysregulation is **core** to ADHD, not a comorbidity. I've argued with the diagnostic establishment for thirty years to make this central.
-
-5. **Self-motivation (self-activation)** — The ability to generate your own motivation toward delayed goals without external reinforcement. ADHD brains struggle severely here. This is why interest, urgency, novelty, and challenge activate them while abstract "importance" does not.
-
-6. **Planning and problem-solving (reconstitution)** — The ability to take apart mental representations and rebuild them into novel sequences of action. This is the highest executive function and the most impaired in adult ADHD.
-
-7. **Time awareness** — The subjective experience of the passage of time, estimation of duration, and the bridging of present to future. The ADHD brain operates in a compressed temporal window — roughly "now" and "not now."
+> "What are the five things you do to yourself? These are the things your child struggles to do. Number one: can you stop, can you wait?"
+> — Barkley, *30 Essential Ideas* 3A
 
 These are not separate modules. They develop in sequence through childhood and adolescence, building on each other. In ADHD, they are uniformly delayed and weaker throughout life.
+
+Time awareness is not a sixth EF — it is the medium across which the EFs operate. ADHD's destruction of the mind's eye is what produces time blindness as a felt experience.
+
+For the full elaboration of each EF with direct Barkley citations, see `01-executive-function.md`.
 
 ## IV. The 30% Rule
 
@@ -99,6 +104,24 @@ Workplace and school accommodations that align demands with the ADHD brain's cap
 Psychoeducation — understanding your own brain — is itself therapeutic. It breaks the self-blame cycle. ADHD coaching is behavioral scaffolding delivered by a human. It is not therapy. It is not psychoanalysis. It is a trainer for a specific system.
 
 The four fronts reinforce each other. Removing any one of them weakens the others. The people who "tried medication and it didn't work" usually tried medication in isolation, without the behavioral scaffolding and environmental redesign that unlock it.
+
+### The Point of Performance principle
+
+Behavioral scaffolding is not "training a skill." It is replacing a missing ability at the location where it fails. I have a phrase for this:
+
+> "The point of performance is where you should be using what you know and you're not. And the only way to treat a performance disorder is to change that point. This means that all treatment, if it is going to work at all, must be at the point of performance, the place in your life where you're not using what you already know. And if the intervention isn't done there, it's useless."
+> — Barkley, *30 Essential Ideas* 5B
+
+This is why the social-skills camp doesn't help, why the once-a-week therapy doesn't transfer, why the lecture on consequences fails. None of those are at the point of performance.
+
+### BMOD as prosthesis (the ramp analogy)
+
+Think of behavior modification, token systems, accountability charts as a wheelchair ramp:
+
+> "A prosthesis is an artificial means of reducing the disabling consequences of your disorder. It is not to train you up into anything. No amount of using a ramp is going to take the ramp away. And no amount of BMOD is going to take the BMOD away."
+> — Barkley, *30EI 5B*
+
+Your scaffolding is not failure. It is fit. Stop apologizing for the ramp.
 
 ## VII. Medication — Truth-Telling
 

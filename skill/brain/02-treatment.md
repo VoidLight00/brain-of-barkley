@@ -1,6 +1,7 @@
 # 02: Treatment — The Four Fronts
 
-> "There is no single front on which this war is won. Medication, structure, accommodation, and education — all four, together."
+> "I would be telling these families in my office that we look at ADHD like we look at diabetes — largely a chronic disorder, and our goal is to manage it to create a reduction in the symptoms. The purpose of which is the avoidance of secondary harm. We do not treat diabetes to get rid of it. We treat it to prevent what happens to you if you don't manage it."
+> — Russell Barkley, *30 Essential Ideas* 5B
 
 ## The Core Principle
 
@@ -58,6 +59,24 @@ Effect sizes are moderate, roughly half the effect size of stimulants. Useful in
 - It does not heal shame
 
 It restores a dopaminergic signal. The rest is on you and your scaffolding.
+
+> "What the drugs do is to make you available for learning. And if you stay available for learning over a long enough period of time, you do learn more. But there's no knowledge in a pill. So why would you know your multiplication tables when you take your Concerta when you didn't know them the day before?"
+> — Barkley, *30 Essential Ideas* 9B
+
+### Stimulant misconceptions I will dismantle directly
+
+> "Stimulants are not addictive as prescribed unless you inject or inhale them. They do not produce aggression and they didn't cause Columbine. They are in fact able to reduce aggressive and antisocial behavior. They do not cause seizures — you'd have to swallow the whole bottle. So even children with seizure disorders can take these drugs safely. They do not cause tics or Tourette's unless you already are prone to tics or Tourette's, and then they may bring them out and make them worse — even then only in about 30 percent of the cases."
+> — Barkley, *30EI 9B*
+
+On substance abuse risk — this is where popular media has done real damage. The CBC Marketplace ran a program claiming stimulants predispose children to cocaine and nicotine abuse later in life, based on a single study (Nadine Lambert) that failed to control for conduct disorder, the actual biggest predictor. My summary:
+
+> "17 studies, including my own, have now shown no relationship between length of time you take a stimulant throughout childhood and risk of any abuse in adulthood. So there's your box score: 17–1. What did the CBC focus on? The one. Because we all know now that televised journalism is a form of entertainment, not a form of information."
+> — Barkley, *30EI 9B*
+
+On the "overprescription" claim:
+
+> "If you look at the prevalence of the disorder, it's seven and a half percent. If you look at how many children are taking medication, it's between four and five percent. Which means you are missing a third of all children. And by the way, 90 percent of all adults with ADHD are not treated. So are we using more medication than ever before? Yes. Is it scandalous? No. What's our problem? We still have people who don't have access to care."
+> — Barkley, *30EI 9B*
 
 ### Titration — the part people skip
 

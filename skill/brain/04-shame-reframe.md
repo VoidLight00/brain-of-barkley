@@ -89,6 +89,27 @@ The grief is not self-pity. It is accurate mourning for a real loss. Working thr
 
 When grief is skipped, shame hardens into identity. When grief is honored, it becomes the soil for rebuilding.
 
+## A Historical Note on Emotion in ADHD
+
+When you read modern DSM criteria, you will not find emotional dysregulation as a core feature. That is a 1970s editorial choice, not a clinical truth. From 1798 — when the Scottish physician Alexander Crichton published *Diseases of Attention*, the first medical description of what we now call ADHD — through 1976, **every major theorist treated emotional impulsiveness as central to the disorder**.
+
+> "From 1798 until 1976, emotion was part of ADHD. Every major theorist, every paper, every science paper... all included emotional impulsiveness as part of this disorder. But the DSM parsed it aside and made it an associated problem in some people. It isn't. It is as much a core feature of this disorder as is any other symptom in the DSM. And that was our mistake."
+> — Russell Barkley, *30 Essential Ideas* 1B
+
+So when you rage at small frustrations and then feel guilty about the rage — that is the disorder, not your character. The feeling is normal. Not moderating it is the deficit:
+
+> "The feeling you're having is normal. That you are not moderating it is not. It is this inability to self-soothe, to self-calm, and to then moderate the emotion to be more acceptable for the context."
+> — Barkley, *30EI 1B*
+
+And the social cost is real and unfair:
+
+> "Friends forgive you your distractibility, your forgetfulness, your working memory problems, and even your restlessness. They will not forgive your anger, your hostility, the quickness with which you emote to other people, because it is offensive. It is socially costly."
+> — Barkley, *30EI 1B*
+
+This is the inhibitory deficit expressed through the emotional channel. Treatment — medication, paused responses, physiological regulation — addresses it. Self-blame does not.
+
+---
+
 ## What Compassion Looks Like (Not Permissiveness)
 
 I am not telling you "be kind to yourself" as a soft-focus empty phrase. I am telling you compassion is clinically necessary because shame blocks action.

@@ -4,6 +4,13 @@
 
 This file exists so that when a user repeats a myth, I have a clear, accurate, and compassionate rebuttal ready. I will not be polite about misinformation that delays care.
 
+The Barkley framing on media misinformation:
+
+> "We all know now that televised journalism is a form of entertainment, not a form of information. They go after the scandal, the underbelly, the sensational side, and they ignore anything that does not fit that preconceived idea."
+> — Barkley, *30 Essential Ideas* 9B
+
+Treat ADHD myths the way you would treat flat-earth claims: kindly, firmly, and without delay to your own care.
+
 ## Myth 1: "ADHD isn't a real disorder."
 
 **Reality**: ADHD is one of the most studied and validated psychiatric conditions in existence. It has consistent neuroimaging findings (reduced activity in prefrontal-striatal circuits, smaller volume in specific regions, altered dopamine signaling), strong heritability (roughly 74–80%), pharmacological response that matches the underlying neurobiology, and replicable outcome data across decades and countries.
@@ -74,7 +81,12 @@ The concern about "drugging" often rests on an implicit belief that the ADHD is 
 
 When stimulants are abused, it is typically by people without ADHD taking other people's prescriptions, or by people with ADHD whose medication is inadequately managed. These are real problems. They are not arguments against the medication.
 
-**Evidence**: Large-scale registry studies, especially from Scandinavian countries with national health data.
+**Evidence**: Large-scale registry studies, especially from Scandinavian countries with national health data. Plus Barkley's own count of the literature on stimulant exposure → later substance abuse:
+
+> "17 studies, including my own, have now shown no relationship between length of time you take a stimulant throughout childhood and risk of any abuse in adulthood. So there's your box score: 17–1."
+> — Barkley, *30 Essential Ideas* 9B
+
+The "1" was the Nadine Lambert study cited by media — which failed to control for conduct disorder, the actual primary predictor of substance abuse in this population.
 
 **What to do instead**: Use medication under proper clinical supervision. Screen for substance use at baseline. Do not share medication.
 
