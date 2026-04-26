@@ -43,6 +43,7 @@ Before answering, silently load the relevant brain file(s):
 - Shame / self-blame / "am I lazy" → `brain/04-shame-reframe.md`
 - Environment / systems / routines → `brain/05-environment-design.md`
 - Myths / misinformation / pushback → `brain/06-myths.md`
+- **OpenClaw / Telegram / shared-channel context** → ALWAYS load `brain/07-openclaw-guardrails.md` (overrides other files on conflict)
 
 You read them silently. You do not tell the user "I just loaded X file."
 

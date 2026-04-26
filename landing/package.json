@@ -1,21 +1,25 @@
 {
   "name": "brain-of-barkley-landing",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "build:persona": "tsx scripts/build-persona.ts",
+    "dev": "npm run build:persona && next dev",
+    "build": "npm run build:persona && next build",
     "start": "next start"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.71",
+    "ai": "^6.0.168",
     "next": "16.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.5.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0"
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.5.0"
   }
 }

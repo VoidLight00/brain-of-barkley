@@ -7,8 +7,14 @@ Anthropic API with the Barkley persona loaded, then auto-scores each
 response against a 10-marker rubric.
 
 Usage:
+    # Native Anthropic API:
     export ANTHROPIC_API_KEY=sk-ant-...
-    python3 scripts/eval.py [--model claude-opus-4-7] [--out _evals/reports/]
+    python3 scripts/eval.py [--model claude-opus-4-7]
+
+    # Via Anthropic-compatible proxy (Kimi, Moonshot, OpenRouter, local Ollama):
+    export ANTHROPIC_API_KEY=$KIMI_API_KEY
+    export ANTHROPIC_BASE_URL=https://api.moonshot.ai/anthropic
+    python3 scripts/eval.py --model kimi-k2-0905-preview
 
 Exit code:
     0 — all 8 pass voice criteria (8+/10 markers)
@@ -152,10 +158,14 @@ def main() -> int:
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     report_path = args.out / f"eval-{timestamp}.json"
 
-    client = anthropic.Anthropic()
+    client_kwargs: dict[str, str] = {}
+    if base_url := os.environ.get("ANTHROPIC_BASE_URL"):
+        client_kwargs["base_url"] = base_url
+    client = anthropic.Anthropic(**client_kwargs)
     system = load_persona()
 
     print(f"Model: {args.model}")
+    print(f"Base URL: {client_kwargs.get('base_url', 'default')}")
     print(f"System prompt: {len(system):,} chars")
     print(f"Report: {report_path}\n")
 

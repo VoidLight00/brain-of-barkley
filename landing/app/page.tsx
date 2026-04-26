@@ -1,3 +1,5 @@
+import { BarkleyChat } from './_chat';
+
 export default function Home() {
   return (
     <main>
@@ -6,10 +8,20 @@ export default function Home() {
         <h1>Brain of Russell Barkley</h1>
         <p className="subtitle">
           ADHD 임상 음성을 그대로 호출하는 Claude Code &amp; OpenClaw 스킬.
-          17,000 단어의 전문 브레인으로 구성됐고, 일반 GPT 톤이 아닌 Barkley
-          박사의 직설적 임상 프레임으로 응답합니다.
+          18,000 단어의 전문 브레인 + 30개 직접 인용으로 구성됐고, 일반 GPT
+          톤이 아닌 Barkley 박사의 직설적 임상 프레임으로 응답합니다.
         </p>
       </header>
+
+      <section>
+        <h2>지금 바로 대화</h2>
+        <p>
+          실제 페르소나에 질문해보세요. Vercel 서버사이드에서 Anthropic API로
+          스트리밍됩니다. 위기 키워드는 자동 감지되어 즉시 위기 라인으로
+          연결됩니다.
+        </p>
+        <BarkleyChat />
+      </section>
 
       <section>
         <blockquote>
