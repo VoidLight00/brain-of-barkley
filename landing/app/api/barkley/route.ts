@@ -64,15 +64,6 @@ function getClientIp(req: Request): string {
 }
 
 export async function POST(req: Request): Promise<Response> {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    return new Response(
-      JSON.stringify({
-        error: 'Server not configured. Maintainer must set ANTHROPIC_API_KEY.',
-      }),
-      { status: 503, headers: { 'content-type': 'application/json' } },
-    );
-  }
-
   let body: { question?: string };
   try {
     body = await req.json();
@@ -100,6 +91,8 @@ export async function POST(req: Request): Promise<Response> {
     );
   }
 
+  // Crisis check runs BEFORE API key check — crisis referral must work
+  // even when the persona backend is offline.
   if (CRISIS_PATTERNS.some((re) => re.test(question))) {
     return new Response(CRISIS_RESPONSE, {
       status: 200,
@@ -108,6 +101,17 @@ export async function POST(req: Request): Promise<Response> {
         'x-disclaimer': 'crisis-referral',
       },
     });
+  }
+
+  if (!process.env.ANTHROPIC_API_KEY) {
+    return new Response(
+      JSON.stringify({
+        error:
+          'Live demo not configured. The maintainer needs to set ANTHROPIC_API_KEY on Vercel. ' +
+          'Self-host instead: github.com/VoidLight00/brain-of-barkley',
+      }),
+      { status: 503, headers: { 'content-type': 'application/json' } },
+    );
   }
 
   const ip = getClientIp(req);
