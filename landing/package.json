@@ -3,9 +3,9 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "build:persona": "tsx scripts/build-persona.ts",
-    "dev": "npm run build:persona && next dev",
-    "build": "npm run build:persona && next build",
+    "build:persona": "tsx scripts/build-persona.ts || true",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
